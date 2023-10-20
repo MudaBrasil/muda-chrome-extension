@@ -3,10 +3,19 @@
   "name": "Muda",
   "version": "1.0.0",
   "description": "Muda Chrome extension",
+  "action": {
+    "default_icon": {
+      "16": "icons/logo-bg-stars.png",
+      "24": "icons/logo-bg-stars.png",
+      "32": "icons/logo-bg-stars.png"
+    },
+    "default_title": "Click Me",
+    "default_popup": "html/popup.html"
+  },
   "icons": {
-    "16": "icons/muda-16.png",
-    "48": "icons/muda-48.png",
-    "128": "icons/muda-128.png"
+    "16": "icons/logo-bg-stars.png",
+    "48": "icons/logo-bg-stars.png",
+    "128": "icons/logo-bg-stars.png"
   },
   "content_scripts": [
     {
@@ -17,17 +26,6 @@
       "css": [
         "css/block-site-style.css"
       ]
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "css/block-site-style.css"
-      ],
-      "matches": [
-        "<all_urls>"
-      ],
-      "extension_ids": []
     }
   ]
 }

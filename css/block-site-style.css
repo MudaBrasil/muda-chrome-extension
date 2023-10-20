@@ -4,6 +4,7 @@
   font-family: monospace;
   font-size: 5vw;
   font-weight: bold;
+  overflow-y: auto !important;
   text-align: center;
 }
 
@@ -19,11 +20,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(68.34% 50% at 50% 50%, #2D9AFF 0%, #41DEE8 0%, #A22DFF 100%);
+  background: radial-gradient(68.34% 50% at 50% 50%, #16ac7c 0%, #549ad3 0%, #114c7c 100%) !important;
+  overflow: auto !important;
 }
 
 html::before {
-  content: '!! PARE DE PROCRASTINAR !!';
+  content: 'PARE DE PROCRASTINAR!';
 }
 
 body {
