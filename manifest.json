@@ -21,7 +21,9 @@
     {
       "matches": [
         "https://www.facebook.com/*",
-        "https://www.instagram.com/*"
+        "https://www.instagram.com/*",
+        "https://www.linkedin.com/*",
+        "https://www.globo.com/*"
       ],
       "css": [
         "css/block-site-style.css"
